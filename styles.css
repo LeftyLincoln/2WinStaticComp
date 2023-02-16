@@ -38,9 +38,16 @@ h2 {
 .individual-card {
   border: 5px solid blue;
   height: 400px;
-  width:300px;
-  padding:10px
+  width:275px;
+  padding:10px;
+  box-shadow: 8px 5px 3px grey;
 }
+
+.individual-card:hover {
+  background-color: azure;
+  scale: 1.2;
+  cursor:pointer;
+} 
 
 .nav-bar-right {
 display: flex;
@@ -79,3 +86,30 @@ justify-content: flex-end;
 .header-logo {
   padding-top: 20px;
 }
+
+h4 {
+  color:grey
+}
+
+.number {
+  color:blue;
+  font-weight: 900;
+}
+
+.url {
+  background-color: grey;
+}
+
+.share, .playlists, .videos, .admin {
+  cursor: pointer;
+}
+
+.share:hover, .playlists:hover, .videos:hover , .admin:hover{
+  scale: 1.2;
+}
+
+.admin {
+  padding-right: 25px;
+}
+
+
