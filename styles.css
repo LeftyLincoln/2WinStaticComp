@@ -25,10 +25,6 @@ header {
   background-color: 	#C8C8C8;
 }
 
-main {
-  display:flex;
-}
-
 h2 {
   display:flex;
   padding-left: 10px;
@@ -111,7 +107,7 @@ h4 {
   cursor: pointer;
 }
 
-.share:hover, .playlists:hover, .videos:hover , .admin:hover {
+.share:hover, .playlists:hover, .videos:hover , .admin:hover, .win:hover {
   scale: 1.2;
   color: lightgray;
 }
@@ -135,12 +131,12 @@ h4 {
 }
 
 .views {
-position:absolute;
-top: 0;
-right: 0;
-padding: 5px;
-color: black;
-margin-top: 0px;
+  position:absolute;
+  top: 0;
+  right: 0;
+  padding: 5px;
+  color: black;
+  margin-top: 0px;
 }
 
 .views-amount {
@@ -151,19 +147,17 @@ margin-top: 0px;
   color: black;
   }
 
-  .nav-icons {
-    margin:5px;
-  }
+.nav-icons {
+  margin:5px;
+}
 
-  .share, .playlists, .videos {
-    color:white;
-  }
+.share, .playlists, .videos {
+  color:white;
+}
 
-  .fa-circle-arrow-right {
+.fa-circle-arrow-right {
   position:absolute;
   top: 0;
   left: 0;
   margin: 10px;
-  height: 30px;
-  width: 30px;
-  }
+}
